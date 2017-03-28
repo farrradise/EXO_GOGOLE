@@ -47,6 +47,7 @@ nav img:hover {
   opacity: 1;
 }
 
+/* rajouter une ombre grise pour le bouton quand on passe la souris avec hover */
 #connexion {
   background-color: #4683ea;
   font-weight: bold;
@@ -71,7 +72,7 @@ nav img:hover {
 #logo {
   position: relative;
   width: 17em;
-  margin: 9em auto 1em auto;
+  margin: 9em auto 2em auto;
 }
 
 section img {
@@ -90,6 +91,18 @@ section img {
 
     /* Mise en forme input recherche */
     /* ----------------------------- */
+
+.seek input {
+  width: 38em;
+  height: 2.5em;
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid rgb(210, 217, 215);
+  box-shadow: 0.5px 4px 8px rgb(210, 217, 215);
+}
+
+    /* Mise en forme boutons recherche */
+    /* ------------------------------- */
 
 #recherche p {
   display: inline-block;
