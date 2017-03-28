@@ -7,6 +7,7 @@ footer div, li {
 
 body {
   font-family: arial, sans-serif;
+  text-align: center; /*pour centrer l'ensemble*/
 }
 
 a {
@@ -27,18 +28,23 @@ a:hover {
 
 nav {
   text-align: right;
-  margin-right: 1em;
+  margin-right: 1.3em;
 }
 
 nav > ul > li {
-  margin: 0.5em 0.35em 0em 0.35em;
-  opacity: 0.7;
+  margin: 0.5em 0.40em 0em 0.40em;
+  opacity: 0.8;
 }
 
 nav img {
   height: 1.9em;
   width: 1.9em;
+  opacity: 0.7;
   vertical-align: middle;
+}
+
+nav img:hover {
+  opacity: 1;
 }
 
 #connexion {
@@ -54,6 +60,36 @@ nav img {
 
 /* Mise en forme section */
 /* --------------------- */
+
+    /* Mise en forme logo */
+    /* ------------------ */
+
+/* #logo *, #logo {
+  border: 1px solid black;
+} pour m'aider à placer le mot france correctement */
+
+#logo {
+  position: relative;
+  width: 17em;
+  margin: 9em auto 1em auto;
+}
+
+section img {
+  height: auto;
+  width: 17em;
+  margin: auto;
+  vertical-align: middle;
+}
+
+#france {
+  color: #4285f4;
+  position: absolute;
+  top: 4em;
+  left: 13.35em;
+}
+
+    /* Mise en forme input recherche */
+    /* ----------------------------- */
 
 #recherche p {
   display: inline-block;
